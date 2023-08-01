@@ -1,0 +1,159 @@
+/* fonte Lato */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+/* fonte Borel */
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+html {
+    scroll-padding-top: 5em;
+}
+
+.bg-primary-color {
+    background-color: #fff;
+}
+
+.bg-secondary-color {
+    background-color: #010101;
+}
+
+.primary-color {
+    color: #050505;
+}
+
+.secondary-color {
+    color: #7a7a7a;
+}
+
+.titulo {
+    font-family: 'Borel', cursive;
+}
+
+mark {
+    background-color: yellow;
+}
+
+/* NAVBAR */
+#navbar {
+    background: transparent;
+    backdrop-filter: blur(5px);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+#navbar a:hover {
+    color: #7a7a7a;
+}
+
+.navbar-brand span {
+    font-size: 1.4em;
+    margin-left: .6em;
+}
+
+.navbar-brand i {
+    font-size: 1.2em;
+}
+
+#navbar-items .navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#navbar-items .nav-item {
+    margin: 0 1em;
+}
+
+/* ARIA CALCULADORA */
+
+#calc-container {
+    width: 100%;
+    padding: 2em 0;
+}
+
+#calculator {
+    margin: 0 auto;
+}
+
+#formulario {
+    padding: 3em 2em;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#formulario input,
+#formulario select{
+    background-color: #7a7a7a;
+}
+
+#formulario input::placeholder {
+    color: #fff;
+}
+
+#formulario select option{
+    color: #fff;
+}
+
+#formulario select option:disabled {
+    color: #131313;
+    background-color: #707070;
+}
+
+.row div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+.row div span {
+    font-size: 1.2em;
+    margin: auto 0;
+}
+
+#resultado {
+    width: 70px;
+    border-top: 3px solid #7a7a7a;
+    padding-top: .5em;
+}
+
+.informacoes {
+    background-color: #f1f1f1;
+    border-radius: 12px;
+    border-top: 1em solid black;
+    padding: 2em 2em 1em 2em;
+    margin: 2em auto;
+}
+
+.informacoes h1 {
+    border-bottom: 3px solid #7a7a7a;
+    width: 90%;
+    margin-bottom: 2em;
+}
+
+.informacoes h2 {
+    font-family: 'Borel', sans-serif;
+    margin-left: 1em;
+    margin-top: 2em;
+}
+
+.informacoes p {
+    font-size: 1.2em;
+}
+
+.informacoes a {
+    color: #6d6d6d;
+    text-decoration: underline;
+    transition: .2s;
+}
+
+.informacoes a:hover {
+    color: #4b4b4b;
+}
+
+td {
+    border-left: 1px solid #7a7a7a;
+    border-bottom: 1px solid #7a7a7a;
+    padding: .3em 1em;
+}
